@@ -1,0 +1,81 @@
+.container {
+    display: grid;
+    background-color: ghostwhite;
+    grid-template-rows: auto auto 1fr;
+    height: 20vh;
+    gap: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    font-size: 3vh;
+}
+
+.name {
+    flex: 1;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials * {
+    width: 5vh;
+    height: 5vh;
+}
+
+.intro {
+    background-color: slategray;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.connect {
+    align-content: center;
+    background-color: aquamarine;
+    width: 15vh;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 15%;
+}
+
+.projects {
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: ghostwhite;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info {
+
+}
+
+.project-photos * {
+    width: 20vw;
+    height: 20vw;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 1vh;
+    text-align: center;
+    font-weight: lighter;
+}
