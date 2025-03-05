@@ -103,3 +103,17 @@ footer {
     text-align: center;
     font-weight: lighter;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.1s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+a.active {
+    font-weight: bolder;
+}

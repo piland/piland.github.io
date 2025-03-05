@@ -17,7 +17,6 @@
             <div class="socials">
                 <a href="https://github.com/piland"><img class="github" src="assets/github.png" alt="GitHub"></a>
                 <a href="https://www.linkedin.com/in/ethanpiland/"><img class="linkedin" src="assets/linkedin.png" alt="LinkedIn"></a>
-                <img class="instagram" src="assets/insta.png" alt="Instagram">
             </div>
         </div>
         <div class="intro">
@@ -56,5 +55,14 @@
         </div>
         <footer>pilandethan@gmail.com</footer>
     </div>
+
+
+    <script>
+        document.querySelectorAll(".navigation a").forEach(link => {
+            if (link.getAttribute("href") === window.location.pathname.split('/').pop()) {
+                link.classList.add("active");
+            }
+        });
+    </script>
 </body>
 </html>
