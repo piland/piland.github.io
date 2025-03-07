@@ -34,12 +34,13 @@ body {
 }
 
 .socials {
-    justify-content: right;
     display: flex;
+    justify-content: right;
     gap: 20px;
 }
 
 .socials * {
+    background-color: transparent;
     width: 5vh;
     height: 5vh;
 }
@@ -118,3 +119,121 @@ a.active {
     font-weight: bolder;
 }
 
+
+
+.contactDisplay {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 2fr;
+    gap: 10px;
+}
+
+.contactItem {
+    grid-column: span 2;
+    text-align: center;
+}
+
+
+.contactInfo {
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+.contactButtons {
+    grid-row: span 2;
+    text-align: center;
+}
+
+.about-intro {
+    background-color: #778da9;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.about-intro > h1 {
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.about-intro > p {
+    font-weight: lighter;
+}
+
+
+.about-intro > ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.education-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.education-title {
+    text-align: center;
+    grid-column: span 2;
+}
+
+.education-card {
+    text-align: center;
+}
+
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.experience-title {
+    grid-column: span 3;
+    text-align: center;
+}
+
+.experience-card {
+    text-align: center;
+}
+
+.experience-log {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.skill-container {
+    display: grid;
+}
+
+.skill-title {
+    text-align: center;
+}
+
+.skill-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.skill-card {
+    align-items: center;
+    justify-content: center;
+}
+
+.award-container {
+    display: grid;
+}
+
+.award-title {
+    text-align: center;
+}
+
+.award-flex {
+    display: flex;
+}
+
+.achievement-card {
+    text-align: center;
+}

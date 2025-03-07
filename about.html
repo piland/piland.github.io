@@ -3,111 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="aboutStyle.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-  <div class="container">
-    <div class="header">
-      <div class="navigation">
-        <div><a href="index.html">Projects</a></div>
-        <div><a href="about.html">About</a></div>
-        <div><a href="contact.html">Contact</a></div>
+  <div class="header">
+    <div class="navigation">
+      <div><a href="projects.html">Projects</a></div>
+      <div><a href="about.html">About</a></div>
+      <div><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="name"><h1>Ethan Piland</h1></div>
+    <div class="socials">
+      <a href="https://github.com/piland"><img class="github" src="assets/github.png" alt="GitHub"></a>
+      <a href="https://www.linkedin.com/in/ethanpiland/"><img class="linkedin" src="assets/linkedin.png" alt="LinkedIn"></a>
+    </div>
+  </div>
+
+  <div class="about-intro">
+    <h1>About</h1>
+    <p>Hello, my name is Ethan Piland. I am a recent Computer Science graduate from the University of North Carolina at Charlotte.
+      I am looking to break into the Software Engineering Field and I have a variety of interests. Additionally, I have studied abroad
+      at Gakushuin University of a year while focusing on Mathematics there.</p>
+    <h3>My Interests</h3>
+    <ul>
+      <li>Cloud</li>
+      <li>Full Stack</li>
+      <li>Backend</li>
+      <li>Graphics</li>
+      <li>Parallel Computing</li>
+      <li>Embedded</li>
+      <li>Quantitative</li>
+    </ul>
+  </div>
+  <div class="education-container">
+    <div class="education-title">
+      <h2>Education</h2>
+    </div>
+    <div class="education-card">
+      <h3>University of North Carolina at Charlotte</h3>
+      <h4>Bachelor of Science in Computer Science</h4>
+      <p>Major: Computer Science <br>
+        Minor: Japanese</p>
+    </div>
+    <div class="education-card">
+      <h3>Gakushuin University</h3>
+      <h4>Exchange Program</h4>
+      <p>Concentrated on Mathematics and Japanese Language and Culture</p>
+    </div>
+  </div>
+  <div class="experience-container">
+    <div class="experience-title">
+      <h2>Experience</h2>
+    </div>
+    <div class="experience-card">
+      <h3>Software Engineer Intern</h3>
+      <div class="experience-log">
+        <h5 class="location">HomeSource</h5>
+        <h5 class="date">May 2024 - August 2024</h5>
       </div>
-      <div class="name"><h1>Ethan Piland</h1></div>
-      <div class="socials">
-        <a href="https://github.com/piland"><img class="github" src="assets/github.png" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/ethanpiland/"><img class="linkedin" src="assets/linkedin.png" alt="LinkedIn"></a>
+      <p>Developed libraries to convert API data response objects into target data types using custom converters. Implemented database seeding mechanisms
+        and utilized repositories to efficiently merge and add entities, ensuring data consistency and integrity. Designed DTOs to handle incoming JSON
+        data, transforming it into structured objects. Leveraged Azure Durable Functions to manage the deserialization and storage of data into Azure Blob
+        Storage, enabling scalable and reliable data processing.</p>
+    </div>
+
+    <div class="experience-card">
+      <h3>Lifeguard</h3>
+      <div class="experience-log">
+        <h5 class="location">Mecklenburg County</h5>
+        <h5 class="date">October 2023 - May 2024</h5>
+      </div>
+      <p>Facilitated a safe environment for patrons in a 25-meter lap pool and leisure pool. Participated in monthly training to ensure all life rescuing
+        skills are up to date.</p>
+    </div>
+
+    <div class="experience-card">
+      <h3>Student Philanthropy Representative</h3>
+      <div class="experience-log">
+        <h5 class="location">University of North Carolina at Charlotte</h5>
+        <h5 class="date">August 2021 - May 2022</h5>
+      </div>
+      <p>Updated Alumni information and UNCC database. Informed Alumni of news regarding the College. Raised money for scholarships, equipment, buildings,
+        and financial aid.</p>
+    </div>
+
+    <div class="experience-card">
+      <h3>Laborer</h3>
+      <div class="experience-log">
+        <h5 class="location">DRCS LLC</h5>
+        <h5 class="date">November 2020 - August 2021</h5>
+      </div>
+      <p>Worked alongside team to accomplish work goals according to schedule. Learned diverse construction trades skills, including basic tiling, painting
+        and framing. Organized materials, tools and equipment to supply team members. Read and understood orders to accurately measure, cut and lay out
+        necessary materials</p>
+    </div>
+
+    <div class="experience-card">
+      <h3>BOH Team Lead</h3>
+      <div class="experience-log">
+        <h5 class="location">Chick-fil-A Restaurants</h5>
+        <h5 class="date">July 2020 - November 2020</h5>
+      </div>
+      <p>Managed schedules, accepted time off requests and found coverage for short shifts. Evaluated employee skills and knowledge regularly, training and
+        mentoring individuals with lagging skills. Established open and professional relationships with team members to achieve quick resolutions for various issues</p>
+    </div>
+
+    <div class="experience-card">
+      <h3>BOH Team Member</h3>
+      <div class="experience-log">
+        <h5 class="location">Chick-fil-A Restaurants</h5>
+        <h5 class="date">February 2020 - July 2020</h5>
+      </div>
+      <p>Pursued learning opportunities to advance knowledge and take on leadership position. Maintained order accuracy and customer satisfaction by double-checking
+        orders during assembly. Improved operations through consistent hard work and dedication.</p>
+    </div>
+  </div>
+
+
+  <div class="skill-container">
+    <div class="skill-title">
+      <h3>Skills</h3>
+    </div>
+    <div class="skill-flex">
+      <div class="skill-card">
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>C</li>
+          <li>C++</li>
+          <li>C#</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Frameworks and Libraries</h3>
+        <ul>
+          <li>.NET</li>
+          <li>Pandas</li>
+          <li>OpenGL</li>
+          <li>SFML</li>
+          <li>Matplotlib</li>
+          <li>Node.js</li>
+          <li>FastAPI</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Database Technology</h3>
+        <ul>
+          <li>SQL</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Other Technologies</h3>
+        <ul>
+          <li>Git</li>
+          <li>Bash</li>
+          <li>Linux</li>
+          <li>Unix</li>
+          <li>Windows</li>
+          <li>Application Development</li>
+          <li>Jira</li>
+          <li>Agile</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+  <div class="award-container">
+    <div class="award-title">
+      <h3>Awards and Achievements</h3>
+    </div>
+    <div class="award-flex">
+      <div class="achievement-card">
+        <h4>UNCC Dean's List</h4>
+        <p>Maintained over a 3.4 GPA over multiple semesters</p>
+      </div>
+
+      <div class="achievement-card">
+        <h4>Certificate of Attendance for Exchange Program</h4>
+        <p>Received a certificate of attendance following the completion of my year-long exchange program at Gakushuin University</p>
+      </div>
+
+      <div class="achievement-card">
+        <h4>JLPT N3 Certification</h4>
+        <p>Passed the JLPT N3 Test making me an intermediate level speaker</p>
       </div>
     </div>
   </div>
-  <h1>About</h1>
-  <p>Hello, my name is Ethan Piland. I am a recent Computer Science graduate from the University of North Carolina at Charlotte.
-    I am looking to break into the Software Engineering Field and I have a variety of interests. Additionally, I have studied abroad
-    at Gakushuin University of a year while focusing on Mathematics there.
-  </p>
-  <h3>My Interests</h3>
-  <ul>
-    <li>Cloud</li>
-    <li>Full Stack</li>
-    <li>Backend</li>
-    <li>Graphics</li>
-    <li>Parallel Computing</li>
-    <li>Embedded</li>
-    <li>Quantitative</li>
-  </ul>
-  <h2>Education</h2>
-  <h3>University of North Carolina at Charlotte</h3>
-  <p>Bachelor of Science in Computer Science <br>
-    Major: Computer Science <br>
-    Minor: Japanese</p>
-  <h3>Gakushuin University</h3>
-  <p>Exchange Program <br>
-    Concentrated on Mathematics and Japanese Language and Culture
-  </p>
-  <h3>Experience</h3>
-  <h4>Software Engineer Intern</h4>
-  <h5>HomeSource</h5>
-  <h6>May 2024 - August 2024</h6>
-  <p>Developed libraries to convert API data response objects into target data types using custom converters. Implemented database seeding mechanisms
-    and utilized repositories to efficiently merge and add entities, ensuring data consistency and integrity. Designed DTOs to handle incoming JSON
-    data, transforming it into structured objects. Leveraged Azure Durable Functions to manage the deserialization and storage of data into Azure Blob
-    Storage, enabling scalable and reliable data processing.
-  </p>
-  <h4>Lifeguard</h4>
-  <h5>Mecklenburg County</h5>
-  <h6>October 2023 - May 2025</h6>
-  <p>Facilitated a safe environment for patrons in a 25-meter lap pool and leisure pool. Participated in monthly training to ensure all life rescuing
-    skills are up to date.
-  </p>
-  <h4>Student Philanthropy Representative</h4>
-  <h5>University of North Carolina at Charlotte</h5>
-  <h6>August 2021 - April 2022</h6>
-  <p>Updated Alumni information and UNCC database. Informed Alumni of news regarding the College. Raised money for scholarships, equipment, buildings,
-    and financial aid.
-  </p>
-  <h4>Laborer</h4>
-  <h5>DRCS LLC</h5>
-  <h6>November 2020 - August 2021</h6>
-  <p>Worked alongside team to accomplish work goals according to schedule. Learned diverse construction trades skills, including basic tiling, painting
-    and framing. Organized materials, tools and equipment to supply team members. Read and understood orders to accurately measure, cut and lay out
-    necessary materials
-  </p>
-  <h4>Laborer</h4>
-  <h5>DRCS LLC</h5>
-  <h6>November 2020 - August 2021</h6>
-  <p>Worked alongside team to accomplish work goals according to schedule. Learned diverse construction trades skills, including basic tiling, painting
-    and framing. Organized materials, tools and equipment to supply team members. Read and understood orders to accurately measure, cut and lay out
-    necessary materials
-  </p>
-  <h4>BOH Team Lead</h4>
-  <h5>Chick-fil-A Restaurants</h5>
-  <h6>July 2020 - November 2020</h6>
-  <p>Managed schedules, accepted time off requests and found coverage for short shifts. Evaluated employee skills and knowledge regularly, training and
-    mentoring individuals with lagging skills. Established open and professional relationships with team members to achieve quick resolutions for various issues
-  </p>
-  <h4>BOH Team Member</h4>
-  <h5>Chick-fil-A Restaurants</h5>
-  <h6>February 2020 - July 2020</h6>
-  <p>Pursued learning opportunities to advance knowledge and take on leadership position. Maintained order accuracy and customer satisfaction by double-checking
-    orders during assembly. Improved operations through consistent hard work and dedication.
-  </p>
-  <h2>Skills</h2>
-  <h3>Programming languages:</h3>
-  <p>C, C++, C#, Java, Python, JavaScript</p>
-  <h3>Frameworks/Libraries:</h3>
-  <p> .NET, Pandas, OpenGL, SFML, Matplotlib, Node.js, FastAPI</p>
-  <h3>Databases:</h3>
-  <p>SQL, mySQL</p>
-  <h3>Other:</h3>
-  <p>Git, Bash, Linux, Unix, Windows, Application Development, Agile</p>
-  <h2>Awards and Achievements</h2>
-  <h3>UNCC Dean's List</h3>
-  <p>Maintained over a 3.4 GPA over multiple semesters</p>
-  <h3>Certificate of Attendance for Gakushuin University Exchange Program</h3>
-  <h3>Lifeguard Certification</h3>
-  <h3>JLPT N3 Certified</h3>
-  <p>Passed the JLPT N3 Test making me an intermediate level speaker</p>
+</div>
 
 
   <script>
@@ -117,15 +208,6 @@
       }
     });
   </script>
-</div>>
 
-
-<script>
-  document.querySelectorAll(".navigation a").forEach(link => {
-    if (link.getAttribute("href") === window.location.pathname.split('/').pop()) {
-      link.classList.add("active");
-    }
-  });
-</script>
 </body>
 </html>
