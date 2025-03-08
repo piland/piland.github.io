@@ -2,42 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Piland | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="navigation">
-                <div><a href="index.html">Projects</a></div>
-                <div><a href="about.html">About</a></div>
-                <div><a href="contact.html">Contact</a></div>
-            </div>
-            <div class="name"><h1>Ethan Piland</h1></div>
-            <div class="socials">
-                <a href="https://github.com/piland"><img class="github" src="assets/github.png" alt="GitHub"></a>
-                <a href="https://www.linkedin.com/in/ethanpiland/"><img class="linkedin" src="assets/linkedin.png" alt="LinkedIn"></a>
-            </div>
-        </div>
-    </div>
-    <div class="contactDisplay">
-        <div class="contactItem">Contact</div>
-        <div class="contactInfo">
-            <h3>Email</h3>
-            <p>pilandethan@gmail.com</p>
-        </div>
-        <div class="contactInfo">
-            <h3>Phone Number</h3>
-            <p>(980) 207-9807</p>
-        </div>
-        <div class="contactButtons">
-            LinkedIn
-        </div>
-        <div class="contactButtons">
-            GitHub
-        </div>
-    </div>
+  <div class="container">
+    <header class="header">
+      <nav class="navigation">
+        <a href="index.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <h1>Ethan Piland</h1>
+      <div class="socials">
+        <a href="https://github.com/piland"><img src="assets/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/ethanpiland/"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+      </div>
+    </header>
 
+    <section class="section-display">
+      <h1 class="section-title">Contact</h1>
+      <div class="contactInfo">
+        <img src="assets/email.png" alt="email">
+        <h3>Email</h3>
+        <p>pilandethan@gmail.com</p>
+      </div>
+      <div class="contactInfo">
+        <img src="assets/phone.png" alt="phone">
+        <h3>Phone Number</h3>
+        <p>(980) 207-9807</p>
+      </div>
+      <a class="unique-a" href="https://www.linkedin.com/in/ethanpiland/">
+      <div class="contactInfo">
+        <img src="assets/linkedinContactLogo.png" alt="linkedincontact">
+        <h3>LinkedIn</h3>
+        <p>ethanpiland</p>
+      </div>
+      </a>
+      <a class="unique-a" href="https://github.com/piland">
+      <div class="contactInfo">
+        <img src="assets/githubContactLogo.webp" alt="githubcontact">
+        <h3>GitHub</h3>
+        <p>piland</p>
+      </div>
+      </a>
+      <a class="unique-a" href="https://www.instagram.com/ethan.piland/">
+      <div class="contactInfo">
+        <img src="assets/instagram.png" alt="instagram">
+        <h3>Instagram</h3>
+        <p>ethan.piland</p>
+      </div>
+      </a>
+    </section>
+  </div>
+  <footer>Thanks for Reading | Ethan Piland</footer>
 
     <script>
         document.querySelectorAll(".navigation a").forEach(link => {

@@ -2,74 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ethan Piland Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Piland | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="navigation">
-                <div><a href="index.html">Projects</a></div>
-                <div><a href="about.html">About</a></div>
-                <div><a href="contact.html">Contact</a></div>
-            </div>
-            <div class="name"><h1>Ethan Piland</h1></div>
-            <div class="socials">
-                <a href="https://github.com/piland"><img class="github" src="assets/github.png" alt="GitHub"></a>
-                <a href="https://www.linkedin.com/in/ethanpiland/"><img class="linkedin" src="assets/linkedin.png" alt="LinkedIn"></a>
-            </div>
+  <div class="container">
+    <header class="header">
+      <nav class="navigation">
+        <a href="index.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+        <h1>Ethan Piland</h1>
+        <div class="socials">
+          <a href="https://github.com/piland"><img src="assets/github.png" alt="GitHub"></a>
+          <a href="https://www.linkedin.com/in/ethanpiland/"><img src="assets/linkedin.png" alt="LinkedIn"></a>
         </div>
-        <div class="intro">
-            <h1>Hi, my name is Ethan Piland!</h1>
-            <p>I am a recent graduate looking for Software Engineering opportunities! Please take a look at my projects below,
-                connect with me on LinkedIn or contact me.</p>
-            <div class="connect">
-                <a href="about.html">More About Me</a>
-            </div>
+    </header>
+      <section class="intro">
+        <h1>Hi, my name is Ethan Piland!</h1>
+        <p>I am a recent graduate looking for Software Engineering opportunities! Please take a look at my projects below,
+            connect with me on LinkedIn or contact me.</p>
+        <a class="connect" href="about.html">More About Me</a>
+      </section>
+      <section class="section-display">
+        <h1 class="section-title">Projects</h1>
+        <div class="project-card">
+          <a href="https://github.com/piland/Charma">
+              <img src="assets/charmasnap.png" alt="Charma">
+          </a>
+          <h3>Charma</h3>
+          <p>A GPS-based service designed for the Charlotte community.
+              Provides navigation across campus and ensures a secure,
+              personalized experience tailored to the unique needs of each user.</p>
         </div>
-        <h1 style="text-align: center; font-weight: bold; font-size: 2rem; color: #1b263b">Projects</h1>
-        <div class="projects">
-            <div class="project-card">
-                <div class="project-photos">
-                    <a href="https://github.com/piland/Charma"><img src="assets/charmasnap.png" alt="Charma"></a>
-                </div>
-                <h3>Charma</h3>
-                <p>CHARMA is a GPS-based service designed exclusively for the University of North Carolina at Charlotte community.
-                    The app provides precise navigation across campus and is accessible only to UNCC students and faculty, ensuring a secure,
-                    personalized experience tailored to the unique needs of the university.</p>
-            </div>
-            <div class="project-card">
-                <div class="project-photos">
-                    <a href="https://www.google.com/"><img src="assets/PhysicsEngine.webp" alt="PhysicsEngine"></a>
-                </div>
-                <h3>Physics Engine</h3>
-                <p>Developing a 2D physics engine to get practice with Parallel Programming and because Math is cool</p>
-            </div>
-            <div class="project-card">
-                <div class="project-photos">
-                    <a href="https://github.com/piland/Animal-Detector"><img src="assets/animals.webp" alt="Animals"></a>
-                </div>
-                <h3>Animal Detector</h3>
-                <p>Built a Machine Learning Algorithm using a Kaggle Dataset to determine what kind of animal is in a given photo</p>
-            </div>
-            <div class="project-card">
-                <div class="project-photos">
-                    <a href="https://github.com/Raycoder5/4102-Project"><img src="assets/Cobolatm.png" alt="ATM"></a>
-                </div>
-                <h3>COBOL ATM</h3>
-                <p>Worked in a group to develop an ATM in COBOL</p>
-            </div>
+        <div class="project-card">
+          <a href="https://www.google.com/">
+            <img src="assets/PhysicsEngine.webp" alt="PhysicsEngine">
+          </a>
+          <h3>Physics Engine</h3>
+          <p>Developing a 2D physics engine to get practice with Parallel Programming and because Math is cool</p>
         </div>
-        <footer>pilandethan@gmail.com</footer>
-    </div>
+        <div class="project-card">
+          <a href="https://github.com/piland/Animal-Detector">
+            <img src="assets/animals.webp" alt="Animals">
+          </a>
+          <h3>Animal Detector</h3>
+          <p>Built a Machine Learning Algorithm using a Kaggle Dataset to determine what kind of animal is in a given photo</p>
+        </div>
+        <div class="project-card">
+          <a href="https://github.com/Raycoder5/4102-Project">
+            <img src="assets/Cobolatm.png" alt="ATM">
+          </a>
+          <h3>COBOL ATM</h3>
+          <p>Worked in a group to develop an ATM in COBOL</p>
+        </div>
+      </section>
+  </div>
+  <footer>Thanks for Reading | Ethan Piland</footer>
 
-
-    <script>
-        document.querySelectorAll(".navigation a").forEach(link => {
-            if (link.getAttribute("href") === window.location.pathname.split('/').pop()) {
-                link.classList.add("active");
-            }
-        });
-    </script>
+  <script>
+    document.querySelectorAll(".navigation a").forEach(link => {
+      if (link.getAttribute("href") === window.location.pathname.split('/').pop()) {
+        link.classList.add("active");
+      }
+    });
+  </script>
 </body>
 </html>
